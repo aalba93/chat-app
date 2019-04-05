@@ -11,9 +11,15 @@
             <button>Send</button>
         </form>
         <button id="send-location">Send Location</button>
+        
         <script id="message-template" type="text/html">
             <div>
                 <p>{{message}}</p>
+            </div>
+        </script>
+        <script id="location-message-template">
+            <div>
+                <p><a href="{{url}}" target="_blank">My current location</a></p>
             </div>
         </script>
 
